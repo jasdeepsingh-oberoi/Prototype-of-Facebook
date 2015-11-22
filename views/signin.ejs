@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Login</title>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+<link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+<body>
+
+<h1>Welcome to Facebook</h1>
+	
+<form method="post" action="/signin">
+<br><b>Username: &nbsp <input type="email" name="username"></b><br>
+<br><b>&nbsp Password: &nbsp <input type="password" name="password"></b><br>
+<br><input type="submit" name="signin" value = "Sign in">
+</form>
+	
+	
+	<div  align = 'justify' >
+<h1>Signup</h1>
+<form method="post" action="/signup" >
+<br><input type="email" name="username" placeholder="Username"> 
+<br><input type="password" name="password" placeholder="Password">
+<br><input type="text" name="firstname" placeholder="First name">
+<br><input type="text" name="lastname" placeholder="Last name"><br>
+<br><b>Date Of Birth:<br>
+<input type="date" name="dob"></b><br><br>
+<br>Male &nbsp<input type="radio" name="gender" value="Male"> &nbsp 
+Female &nbsp<input type="radio" name="gender" value="Female"></b><br>
+<br><input type="submit" name="submit" value ="Sign Up"><br>
+
+</form>
+</div>
+	
+	
+</body>
+</html>
